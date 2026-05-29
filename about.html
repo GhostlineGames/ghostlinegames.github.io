@@ -131,7 +131,7 @@ nav a:nth-child(1){animation-delay:.55s}nav a:nth-child(2){animation-delay:.63s}
 .mline p strong{color:var(--white);font-weight:400;}
 
 /* WHAT WE'RE NOT — 2-col contrast grid */
-.not-section{padding:120px 52px;background:var(--bg2);}
+.not-section{padding:120px 52px;background:var(--bg2);}.not-section-inner{max-width:1300px;margin:0 auto;}.contact-inner{max-width:1300px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:60px;flex-wrap:wrap;}
 .not-section h2{font-family:'Outfit',sans-serif;font-size:clamp(20px,3vw,38px);font-weight:800;letter-spacing:-.03em;margin-bottom:16px;}
 .not-section .sub{font-size:14px;color:var(--muted);margin-bottom:64px;}
 .not-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;}
@@ -149,7 +149,7 @@ nav a:nth-child(1){animation-delay:.55s}nav a:nth-child(2){animation-delay:.63s}
 .not-col.right .not-item p{color:rgba(110,238,230,.8);}
 
 /* CONTACT CTA */
-.contact{padding:140px 52px;display:flex;align-items:center;justify-content:space-between;gap:60px;flex-wrap:wrap;}
+.contact{padding:140px 52px;}
 .contact-left h2{font-family:'Outfit',sans-serif;font-size:clamp(28px,5vw,68px);font-weight:800;letter-spacing:-.03em;line-height:1;margin:14px 0 16px;}
 .contact-left p{font-size:15px;color:var(--muted);max-width:400px;line-height:1.8;}
 .contact-right{display:flex;flex-direction:column;gap:16px;align-items:flex-end;flex-shrink:0;}
@@ -249,6 +249,11 @@ footer p{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.08em;col
     <h3 class="prin-title">We only win together.</h3>
     <p class="prin-desc">We only win if the game has a real path to players. Our success is tied directly to yours — not to our portfolio size or our deal count.</p>
   </div>
+  <div class="prin-row reveal rd4">
+    <span class="prin-n">05</span>
+    <h3 class="prin-title">We put money in.</h3>
+    <p class="prin-desc">We provide financial support where it makes sense — covering real costs like storefronts, marketing, and production needs. Every deal is different. We'll always be upfront about what we can offer and why.</p>
+  </div>
 </section>
 
 <!-- MANIFESTO -->
@@ -291,15 +296,17 @@ footer p{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.08em;col
 
 <!-- CONTACT CTA -->
 <section class="contact">
+  <div class="contact-inner">
   <div class="contact-left reveal">
     <p class="s-label" style="margin-bottom:18px;">Work with us</p>
     <h2>Tell us about<br>your game.</h2>
     <p>We will tell you honestly if we think we can help. No pitch decks required. Just tell us what you are building and where you are.</p>
   </div>
   <div class="contact-right reveal rd2">
-    <a href="mailto:ghostlineprime@gmail.com?subject=Game%20Submission%20%E2%80%94%20Ghostline%20Games" class="btn-a btn-fill">Get in Touch</a>
+    <a href="mailto:info@ghostlinegames.com?subject=Game%20Submission%20%E2%80%94%20Ghostline%20Games" class="btn-a btn-fill">Get in Touch</a>
     <a href="/" class="btn-a btn-outline">Back to Home</a>
     <p style="font-size:12px;color:var(--muted);margin-top:12px;letter-spacing:0.06em;">or find us on Discord: <span style="color:var(--cyan);">.hobgoblin</span></p>
+  </div>
   </div>
 </section>
 
